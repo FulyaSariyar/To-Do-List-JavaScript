@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="row"> TODO LIST </h1> 
+        <br>
+        <h2>To-Do list with using Javascript Document Object Model (DOM) </h2> 
+        <br>
+        <div class="row">
+            <form class="form-inline col-sm-offset-3">
+                <div class="input-group">
+                    <span class="input-group-addon"> 
+                      <i class="glyphicon glyphicon-pencil"></i> 
+                    </span>
+                    <input type="text" class="form-control" placeholder="Enter an activity" id="box" style="width: 30vw" />
+                </div>
+                <div class="form-group">
+                    <input type="button" class="btn btn-primary form-control" value="Add" style="width: 10vw" onclick="addTodoList()" />
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <br>
+
+            <ul id="list_item">
+            </ul>
+        </div>
+    </div>
+    <footer><h6>by Fulya Sarıyar Abdullah</h6></footer>
+    <script type="text/javascript" src="appToDo.js"></script>
+</body>
+
+</html>
